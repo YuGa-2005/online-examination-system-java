@@ -1,6 +1,10 @@
 # Online Examination System (Java)
 
-A console-based Online Examination System developed using Core Java as part of an internship project.
+## About the Project
+This is a console-based Online Examination System developed using Core Java
+as part of my Virtual Internship at Oasis Infobyte. The project allows users
+to log in, update their profile, attempt MCQ-based exams with a timer, and
+automatically submit answers.
 
 ## Features
 - Login and Logout System
