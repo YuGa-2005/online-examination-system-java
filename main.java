@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
         // default user credentials
-        user user = new user("admin", "admin123", "Admin User", "admin@gmail.com");
+        User user = new User("admin", "admin123", "Admin User", "admin@gmail.com");
 
         System.out.println("=== Online Examination System ===");
 
@@ -37,7 +37,7 @@ public class main {
                         user.showProfile();
                         break;
                     case 2:
-                        exam exam = new exam();
+                        Exam exam = new Exam();
                         exam.startExam();
                         break;
                     case 3:

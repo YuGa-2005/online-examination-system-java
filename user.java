@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
-public class user {
+public class User {
     private final String username;
     private String password;
     private String name;
     private String email;
 
-    public user(String username, String password, String name, String email) {
+    public User(String username, String password, String name, String email) {
         this.username = username;
         this.password = password;
         this.name = name;

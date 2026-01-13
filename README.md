@@ -16,12 +16,12 @@ A console-based Online Examination System developed using Core Java as part of a
 - Scanner Class
 
 ## Project Structure
-main.java        - Application entry point  
-user.java        - User authentication and profile management  
-exam.java        - Exam logic and timer implementation  
-question.java   - MCQ question model  
+Main.java        - Application entry point  
+User.java        - User authentication and profile management  
+Exam.java        - Exam logic and timer implementation  
+Question.java   - MCQ question model  
 
 ## How to Run
 ```bash
 javac *.java
-java main
+java Main

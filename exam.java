@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class exam {
+public class Exam {
 
-    question[] questions = {
-        new question("Java is a ____ ?", "Language", "OS", "Browser", "Device", 1),
-        new question("Which keyword is used to inherit a class?", "this", "super", "extends", "implements", 3),
-        new question("Which method starts execution?", "start()", "main()", "run()", "init()", 2)
+    Question[] questions = {
+        new Question("Java is a ____ ?", "Language", "OS", "Browser", "Device", 1),
+        new Question("Which keyword is used to inherit a class?", "this", "super", "extends", "implements", 3),
+        new Question("Which method starts execution?", "start()", "main()", "run()", "init()", 2)
     };
 
     public void startExam() {
@@ -21,7 +21,7 @@ public class exam {
                 System.out.println("\nTime up! Auto submitting exam...");
                 break;
             }
-            question q = questions[i];
+            Question q = questions[i];
             System.out.println(q.question);
             System.out.println("1. " + q.option1);
             System.out.println("2. " + q.option2);
