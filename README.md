@@ -25,3 +25,10 @@ Question.java   - MCQ question model
 ```bash
 javac *.java
 java Main
+
+## Internship Details
+- Internship Provider: Oasis Infobyte
+- Project Name: Online Examination System
+- Technology: Java
+- Mode: Virtual Internship
+
